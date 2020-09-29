@@ -9,3 +9,12 @@
     display: flex;
     justify-content: space-between;
 }
+
+.footer_image{
+    height: 30px;
+}
+
+.section_app{
+height: 800px;
+width: 100vw;
+}
