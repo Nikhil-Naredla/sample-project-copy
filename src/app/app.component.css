@@ -1,0 +1,11 @@
+.footer{
+    background-color: skyblue;
+    display: flex;
+    padding: 10px;
+    padding-left: 30px;
+    justify-content: space-between;
+}
+.footer_start{
+    display: flex;
+    justify-content: space-between;
+}
