@@ -1,0 +1,48 @@
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+  }
+
+  @media (max-width: 700px) {
+    
+  
+    
+    .grid-2 {
+            grid-template-columns: 1fr;
+          }
+    
+    
+  
+   
+  
+   
+  }
+
+  .card {
+    padding: 1rem;
+    border: #ccc 1px dotted;
+    margin: 0.7rem 0;
+    height: 150px;
+  }
+
+  .card_view2 {
+    padding: 1rem;
+    border: #ccc 1px dotted;
+    margin: 0.7rem 0;
+    height: 280px;
+    list-style: none;
+  }
+ 
+
+  .home{
+      display: grid;
+      place-items: center;
+  }
+
+.td{
+    width: 100%;
+    background-color: green;
+    flex: 1;
+}
+  
